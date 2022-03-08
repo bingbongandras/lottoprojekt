@@ -1,0 +1,240 @@
+/*Jobb oldal*/
+
+div.main{
+    margin-left: 35%;
+    text-align: center;
+}
+
+.h2-right{
+    text-align: left;
+    padding-bottom: 2.2%;
+    font-size: 32px;
+    margin-top: 30px ;
+}
+
+.h1-right{
+    text-align: left;
+    padding-bottom: 0.1%;
+    font-size: 55px;
+    margin-top: 30px ;
+}
+
+img.golyoimg{
+    height: 18vh;
+    width: auto;
+    margin: 1.5px;
+    vertical-align: middle;
+}
+
+.last-week-num{
+    align-content: center;
+    font-size: 25%;
+}
+
+/*Bal oldal*/
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper .sidebar{
+    background-color: #424242;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.bckgrnd-list{
+
+    height: 30%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    object-fit: fill;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.main-page{
+
+    padding-top: 25%;
+    text-align: center;
+    font-size: 125%;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    color: white;
+
+}
+
+.main-page-image{
+
+    height: 87%;
+    width: 42.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+    background-image: url(https://freepikpsd.com/file/2019/10/green-ball-png-Transparent-Images.png);
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.list-a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    padding:5.5%;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    border-style: solid;
+    border-width: 0px 0px 0.9px 0px;
+    border-color: #303030;
+
+}
+
+.list-b{
+    margin-top: 30%;
+}
+
+/*Reszponzivitás fuggvenyek vagy olyasmik xd*/
+
+@media screen and (max-width:1440px) {
+    /*bal oldal*/
+    .main-page-image{
+
+        height: 185px;
+        width: 185px;
+
+    }
+
+    .main-page{
+
+        padding-top: 25.5%;
+        text-align: center;
+        font-size: 125%;
+        text-decoration: none;
+        text-shadow: 2px 2px black;
+        color: white;
+    
+    }
+
+    .bckgrnd-list{
+
+        height: 32%;
+        width: 100%;
+        background-size: 100%;
+    
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    /*Jobb oldal*/
+
+    .h1-right{
+        text-align: left;
+        padding-bottom: 2.2%;
+        font-size: 35px;
+        margin-top: 30px ;
+    }
+    
+    .h2-right{
+        text-align: left;
+        padding-bottom: 2.2%;
+        font-size: 25px;
+    }
+
+    .main-page-image{
+
+        height: 210px;
+        width: 210px;
+
+    }
+
+    .main-page{
+
+        padding-top: 26.5%;
+        text-align: center;
+        font-size: 115%;
+        text-decoration: none;
+        text-shadow: 2px 2px black;
+        color: white;
+    
+    }
+    
+    .bckgrnd-list{
+        height: 42%;
+        width: 100%;
+        background-size: 185%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .h1-right{
+        margin-left: 5%;
+        text-align: left;
+        padding-bottom: 2.2%;
+        font-size: 35px;
+        margin-top: 30px ;
+    }
+    
+    .h2-right{
+        margin-left: 5%;
+        text-align: left;
+        padding-bottom: 2.2%;
+        font-size: 20px;
+    }
+
+    .bckgrnd-list{
+        background-size: 241%;
+        
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .h1-right{
+        text-align: center;
+        margin-left: 80%;
+        padding-bottom: 2.2%;
+        font-size: 40px;
+        margin-top: 30px ;
+    }
+
+    .main-page{
+        padding-top: 28%;
+        font-size: 75%;
+    }
+
+    .bckgrnd-list{
+        height: 30%;
+        background-size: 450%;
+    }
+
+    .main-page-image{
+        height: 138px;
+        width: 138px;
+    }
+}
